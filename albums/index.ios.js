@@ -10,3 +10,7 @@ const App = () => {
 };
 
 // render it to the device
+ReactNative.AppRegistry.registerComponent(
+  'albums',
+  () => App
+);
