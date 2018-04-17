@@ -1,6 +1,10 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { Text, TouchableOpacity } from 'react-native';
 
-const Button = () => <Text>Click Me</Text>;
+const Button = () => (
+  <TouchableOpacity>
+    <Text>Click Me</Text>
+  </TouchableOpacity>
+);
 
 export default Button;
