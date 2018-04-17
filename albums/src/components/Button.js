@@ -25,7 +25,7 @@ const styles = {
     alignSelf: 'center',
     color: '#007aff',
     fontSize: 16,
-    fontWeight: '600',
+    fontWeight: '600', // fontWeight must be a string not a num because reasons
     paddingTop: 10,
     paddingBottom: 10,
   },
